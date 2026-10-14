@@ -15,17 +15,24 @@
   justify-content: space-between;
 }
 
+.elsonav li:hover {
+  background-color: lightgreen;
+  border-radius: 8px;
+  padding: 6px;
+}
+
 header {
   display: flex;
   flex-direction: row;
-  background-color: darkgreen;
+  background-color: #174b38;
   border-radius: 15px;
   padding: 35px;
   justify-content: space-between;
+  color: white
 }
 
 .keret {
-  background-color: rgb(21, 124, 21);
+  background-color: #2c6e50;
   padding: 10px;
   border-radius: 12px;
   border: 1px solid lightgreen;
@@ -37,7 +44,206 @@ header {
   justify-content: space-between;
 }
 
+.masodiknav li {
+  background-color: lightgreen;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 24%;
+  list-style: none;
+  text-align: center;
+}
+
+.masodiknav li:hover {
+  background-color: #2c6e50;
+}
+
+
+.masodiknav a:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+article {
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: white;
+}
+
+img {
+  width: 60px;
+}
+
+.proba {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.sor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.kilenc {
+  background-color: #e8f3df;
+  border-radius: 10px;
+  padding: 7px;
+  margin-top: 20px;
+}
+
+.tiz {
+  background-color: #e8f3df;
+  border-radius: 10px;
+  padding: 7px;
+  margin-top: 20px;
+}
+
+.tiz2 {
+  background-color: #e8f3df;
+  border-radius: 10px;
+  padding: 7px;
+  margin-top: 20px;
+}
+
+.lab {
+  background-color: #f7f7ee;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 4px solid #d77939;
+  margin-top: 20px;
+}
+
+.articleaside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+aside {
+  background-color: #e8f3df;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.elso {
+  background-color: #f7f7ee;
+  padding: 10px;
+  border-radius: 10px;
+  border-left: 4px solid green;
+}
+
+
+.masodik {
+  background-color: #f7f7ee;
+  padding: 10px;
+  border-radius: 10px;
+  border-left: 4px solid green;
+  margin-top: 8px;
+}
+
+.sorba {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.also li {
+  list-style: none;
+  background-color: #174b38;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.also a {
+  color: white;
+}
+
+.marginfix {
+  padding-top: 25px;
+}
+
+.idk {
+  padding-top: 50px;
+  border-top: 1px solid gray;
+}
+
+form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 600px;
+  font-family: sans-serif;
+  border: 1px solid #e0e0e0;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.keret {
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #111;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.apronot {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #1b4332;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
 body {
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
+  background-color: #f7f7ee;
 }
