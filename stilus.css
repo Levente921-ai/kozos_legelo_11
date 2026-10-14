@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.formazas ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 10px;
+}
+
+.elsonav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: darkgreen;
+  border-radius: 15px;
+  padding: 35px;
+  justify-content: space-between;
+}
+
+.keret {
+  background-color: rgb(21, 124, 21);
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid lightgreen;
+}
+
+.masodiknav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body {
+  margin: auto;
+  max-width: 1400px;
+}
